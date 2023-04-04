@@ -3,6 +3,8 @@ while wait() do
     if getgenv().farmer == true then
 local Event = game:GetService("ReplicatedStorage").Modules.LBConnection.Remotes.attackFunc
 Event:FireServer()
+    end
+end
 local libary = loadstring(game:HttpGet("https://pastebin.com/raw/RvJ0qewm", true))()
 local main = libary:CreateWindow("Ninja Town Kill Farm")
 local mod = main:Button("Fast Kill", function()
