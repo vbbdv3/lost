@@ -1,5 +1,5 @@
 local libary = loadstring(game:HttpGet("https://pastebin.com/raw/RvJ0qewm", true))()
-local main = libary:CreateWindow("Ninja Town Kill Farm")
+local main = libary:CreateWindow("Ninja Town Kill FarM")
 local mod = main:Button("Attack", function()
 	getgenv().farmer = true
 while wait() do
