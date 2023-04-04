@@ -1,3 +1,6 @@
+local libary = loadstring(game:HttpGet("https://pastebin.com/raw/RvJ0qewm", true))()
+local main = libary:CreateWindow("Ninja Town Kill Farm")
+local mod = main:Button("Attack", function()
 	getgenv().farmer = true
 while wait() do
     if getgenv().farmer == true then
@@ -5,8 +8,10 @@ local Event = game:GetService("ReplicatedStorage").Modules.LBConnection.Remotes.
 Event:FireServer()
     end
 end
-local libary = loadstring(game:HttpGet("https://pastebin.com/raw/RvJ0qewm", true))()
-local main = libary:CreateWindow("Ninja Town Kill Farm")
+end)
+local mod = main:Button("ANTI LAG", function()
+game:GetService('RunService'):Set3dRenderingEnabled(false)	
+end)
 local mod = main:Button("Fast Kill", function()
 	getgenv().farmer = true
 while wait() do
